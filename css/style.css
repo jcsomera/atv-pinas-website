@@ -3950,6 +3950,10 @@ input[type="button"].btn-block {
   border-bottom: 1px solid #dee2e6;
 }
 
+.nav-item{
+  font-size: 1.5rem;
+}
+
 .nav-tabs .nav-item {
   margin-bottom: -1px;
 }
