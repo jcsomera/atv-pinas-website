@@ -32,6 +32,19 @@
         return false;
     });
 
+    //nav-items animation
+    $(document).ready(function() {
+        $('#main-nav a').click(function(e) {
+            
+            var targetHref = $(this).attr('href');
+            
+          $('html, body').animate({
+              scrollTop: $(targetHref).offset().top
+          }, 1000);
+          
+          e.preventDefault();
+        });
+      });
 
     // Date and time picker
     $('.date').datetimepicker({
