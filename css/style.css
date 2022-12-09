@@ -192,8 +192,8 @@ figure {
 }
 
 .logo {
-  width: 10rem;
-  height: 10rem;
+  width: auto;
+  height: 6rem;
   position: relative;
 }
 
